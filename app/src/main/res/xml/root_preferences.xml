@@ -16,8 +16,6 @@
 
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto" >
     <PreferenceCategory app:title="Seekbar demonstration">
-        <!--weirdly, max is only defined in the android namespace, not the app namespace,
-       <!--so add the android namespace to the following SeekBarPreference-->
 
         <SeekBarPreference xmlns:android="http://schemas.android.com/apk/res/android"
             app:key="seek_bar_key"
