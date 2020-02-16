@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Settings and PreferenceChangeListener'
+rootProject.name='Settings_and_PreferenceChangeListener'

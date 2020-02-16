@@ -75,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
 
         // this is the bit that listens for any preference changes to defaultsharedpreferences
         // (the prefs that the pref activity accesses)
+        //you can also implements OnSharedPreferenceChangeListener for the mainactivity and then
+        //register to have have the mainactivity listen for changes like this
+        //myPreference.registerOnSharedPreferenceChangeListener(this);
+        //and forgo whats below
         if (listener == null) {
             listener = new SharedPreferences.OnSharedPreferenceChangeListener() {
                 @Override
